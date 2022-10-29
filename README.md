@@ -36,7 +36,7 @@ fetch( 'https://api.github.com/repos/YanMetelitsa/Belarusian-cities/contents/cit
 
 В директории `lang` находятся файлы переводов, которые представляют собой простой массив объектов типа `ключ => перевод`
 
-| Язык | Код | Файла |
+| Язык | Код | Файл |
 | --- | --- | --- |
 | Белорусский | be | [be.json](lang/be.json) |
 
