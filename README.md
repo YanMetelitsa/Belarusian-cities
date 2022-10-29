@@ -25,7 +25,7 @@ fetch( 'https://api.github.com/repos/YanMetelitsa/Belarusian-cities/contents/cit
     .then( response => response.json() )
     .then( data => {
         const base64 = data.content;                            // Данные находятся в объекте content
-        const content = atob( base64 );                         // Данные закодированы в base64, декодируем
+        const content = atob( base64 );                         // Декодируем base64
         const utf8 = decodeURIComponent( escape( content ) );   // Декодирование в UTF-8
         const json = JSON.parse( utf8 );                        // Парсинг данных в JSON формат
         
