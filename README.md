@@ -71,5 +71,5 @@ fetch( 'https://api.github.com/repos/YanMetelitsa/Belarusian-cities/contents/cit
 
 ## To-Do
 
-- Завершить перевод на белорусский язык
-- Добавить координаты городов
+- [ ] Завершить перевод на белорусский язык
+- [ ] Добавить координаты городов
