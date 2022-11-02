@@ -17,11 +17,7 @@
 Вы можете использовать GitHub API для получения данных. Для этого необходимо сделать запрос вида:
 
 ```javascript
-fetch( 'https://api.github.com/repos/YanMetelitsa/Belarusian-cities/contents/cities.json', {
-    headers: {
-        'Content-Type': 'application/json',
-    },
-})
+fetch( 'https://api.github.com/repos/YanMetelitsa/Belarusian-cities/contents/cities.json' )
     .then( response => response.json() )
     .then( data => {
         const base64 = data.content;                            // Данные находятся в объекте content
